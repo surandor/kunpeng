@@ -1,0 +1,1262 @@
+[
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 0,
+    "name": "SSH 弱口令",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0001",
+      "url": ""
+    },
+    "remarks": "直接导致服务器被入侵控制。",
+    "target": "ssh",
+    "type": "WEAKPWD"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 0,
+    "name": "SMB 匿名共享/弱口令",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0002",
+      "url": ""
+    },
+    "remarks": "敏感文件被窃取，SMB通常使用系统账户密码进行验证，严重可导致服务器直接被入侵控制。",
+    "target": "smb",
+    "type": "WEAKPWD"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 0,
+    "name": "Redis 未授权访问/弱口令",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0003",
+      "url": ""
+    },
+    "remarks": "导致敏感信息泄露，严重可导致服务器直接被入侵控制。",
+    "target": "redis",
+    "type": "WEAKPWD"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 1,
+    "name": "PostgreSQL 弱口令",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0004",
+      "url": "https://helpcdn.aliyun.com/knowledge_detail/37544.html"
+    },
+    "remarks": "导致数据库敏感信息泄露，严重可导致服务器直接被入侵控制。",
+    "target": "postgresql",
+    "type": "WEAKPWD"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 0,
+    "name": "MySQL 弱口令",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0005",
+      "url": "https://www.cnblogs.com/yunsicai/p/4080864.html"
+    },
+    "remarks": "导致数据库敏感信息泄露，严重可导致服务器直接被入侵控制。",
+    "target": "mysql",
+    "type": "WEAKPWD"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 0,
+    "name": "SQLServer 弱口令",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0006",
+      "url": ""
+    },
+    "remarks": "导致数据库敏感信息泄露，严重可导致服务器直接被入侵控制。",
+    "target": "mssql",
+    "type": "WEAKPWD"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 1,
+    "name": "MongoDB 未授权访问/弱口令",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0007",
+      "url": ""
+    },
+    "remarks": "导致数据库敏感信息泄露，严重可导致服务器直接被入侵控制。",
+    "target": "mongodb",
+    "type": "WEAKPWD"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 2,
+    "name": "Memcache 未授权访问",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0008",
+      "url": "https://help.aliyun.com/knowledge_detail/37553.html"
+    },
+    "remarks": "导致敏感信息泄露。",
+    "target": "memcache",
+    "type": "WEAKPWD"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 1,
+    "name": "FTP 弱口令",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0009",
+      "url": ""
+    },
+    "remarks": "导致敏感信息泄露，严重可导致服务器直接被入侵控制。",
+    "target": "ftp",
+    "type": "WEAKPWD"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 2,
+    "name": "Discuz 3.X SSRF",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0010",
+      "url": "https://www.seebug.org/vuldb/ssvid-91879"
+    },
+    "remarks": "Disucz 3.x downremoteimg 功能存在Blind SSRF漏洞",
+    "target": "discuz",
+    "type": "SSRF"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 0,
+    "name": "Discuz! 6.x/7.x 代码执行",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0011",
+      "url": "https://github.com/vulhub/vulhub/tree/master/discuz/wooyun-2010-080723"
+    },
+    "remarks": "Discuz! 6.x/7.x 全局变量防御绕过导致命令执行",
+    "target": "discuz",
+    "type": "RCE"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 0,
+    "name": "Axis2控制台 弱口令",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0012",
+      "url": ""
+    },
+    "remarks": "攻击者通过此漏洞可以登陆管理控制台，通过部署功能可直接获取服务器权限。",
+    "target": "axis",
+    "type": "WEAKPWD"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 3,
+    "name": "web目录浏览",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0013",
+      "url": "https://blog.csdn.net/wutianxu123/article/details/82634893"
+    },
+    "remarks": "通过此功能可获取web目录程序结构",
+    "target": "web",
+    "type": "INFO"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 1,
+    "name": "grafana 控制台弱口令",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0014",
+      "url": "https://hackerone.com/reports/174883"
+    },
+    "remarks": "攻击者通过此漏洞可以登陆管理控制台，读取相关连接认证信息。",
+    "target": "grafana",
+    "type": "WEAKPWD"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 1,
+    "name": "HTTP代理 未授权访问",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0015",
+      "url": ""
+    },
+    "remarks": "攻击者可使用此代理作为跳板访问内部网络资源。",
+    "target": "proxy",
+    "type": "UNAUTH"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 4,
+    "name": "IIS 物理路径泄露",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0016",
+      "url": ""
+    },
+    "remarks": "通过访问一个不存在的文件或者目录，得到web物理路径",
+    "target": "iis",
+    "type": "INFO"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 3,
+    "name": "IIS 短文件名枚举",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0017",
+      "url": "https://www.freebuf.com/articles/web/172561.html"
+    },
+    "remarks": "攻击者可利用此特性猜解出目录与文件名，以达到类似列目录漏洞的效果",
+    "target": "iis",
+    "type": "INFO"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 0,
+    "name": "JBoss 控制台弱口令",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0018",
+      "url": ""
+    },
+    "remarks": "攻击者通过此漏洞可以登陆管理控制台，通过部署功能可直接获取服务器权限。",
+    "target": "jboss",
+    "type": "WEAKPWD"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 0,
+    "name": "shellshock 破壳漏洞",
+    "references": {
+      "cve": "CVE-2014-6271",
+      "kpid": "KP-0019",
+      "url": "https://www.seebug.org/vuldb/ssvid-88877"
+    },
+    "remarks": "攻击者可利用此漏洞改变或绕过环境限制，以执行任意的shell命令,最终完全控制目标系统",
+    "target": "web",
+    "type": "RCE"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 0,
+    "name": "Apache Tomcat 弱口令",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0020",
+      "url": "https://github.com/vulhub/vulhub/tree/master/tomcat/tomcat8"
+    },
+    "remarks": "攻击者通过此漏洞可以登陆管理控制台，通过部署功能可直接获取服务器权限。",
+    "target": "tomcat",
+    "type": "WEAKPWD"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 0,
+    "name": "UcServer 创始人弱口令",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0021",
+      "url": ""
+    },
+    "remarks": "攻击者通过此漏洞可以登陆管理控制台，后台可查看修改所有用户信息，且部分版本可能存在命令执行漏洞。",
+    "target": "discuz",
+    "type": "WEAKPWD"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 1,
+    "name": "WebDav Put开启",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0022",
+      "url": ""
+    },
+    "remarks": "开启了WebDav且配置不当导致攻击者可上传文件到web目录",
+    "target": "web",
+    "type": "CONF"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 0,
+    "name": "WebDav PROPFIND RCE(理论检测)",
+    "references": {
+      "cve": "CVE-2017-7269",
+      "kpid": "KP-0023",
+      "url": "https://www.seebug.org/vuldb/ssvid-92834"
+    },
+    "remarks": "Windows Server 2003R2版本IIS6.0的WebDAV服务中的ScStoragePathFromUrl函数存在缓存区溢出漏洞",
+    "target": "iis",
+    "type": "RCE"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 0,
+    "name": "Weblogic 控制台弱口令",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0024",
+      "url": "https://github.com/vulhub/vulhub/tree/master/weblogic/weak_password"
+    },
+    "remarks": "攻击者通过此漏洞可以登陆管理控制台，通过部署功能可直接获取服务器权限。",
+    "target": "weblogic",
+    "type": "WEAKPWD"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 1,
+    "name": "WebServer 任意文件读取",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0025",
+      "url": "https://www.secpulse.com/archives/4276.html"
+    },
+    "remarks": "web容器对请求处理不当，可能导致可以任意文件读取(例：GET ../../../../../etc/passwd)",
+    "target": "web",
+    "type": "LFR"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 0,
+    "name": "WordPress 后台弱口令",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0026",
+      "url": ""
+    },
+    "remarks": "攻击者通过此漏洞可以登陆管理后台，通过编辑插件功能可写入webshell，最终导致服务器被入侵控制。",
+    "target": "wordpress",
+    "type": "WEAKPWD"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 1,
+    "name": "Zabbix jsrpc.php SQL注入漏洞",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0027",
+      "url": "https://github.com/Medicean/VulApps/tree/master/z/zabbix/1"
+    },
+    "remarks": "影响版本：v2.2.x, 3.0.0-3.0.3，攻击者通过此漏洞可获取管理员权限登陆后台，由于后台存在执行命令功能，可导致服务器被入侵控制",
+    "target": "zabbix",
+    "type": "SQLI"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 1,
+    "name": "Zabbix latest.php SQL注入漏洞",
+    "references": {
+      "cve": "CVE-2016-10134",
+      "kpid": "KP-0028",
+      "url": "https://github.com/vulhub/vulhub/tree/master/zabbix/CVE-2016-10134"
+    },
+    "remarks": "影响版本：2.2.x/3.0.x，攻击者通过此漏洞可获取管理员权限登陆后台，由于后台存在执行命令功能，可导致服务器被入侵控制",
+    "target": "zabbix",
+    "type": "SQLI"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 2,
+    "name": "zookeeper 未授权访问",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0029",
+      "url": ""
+    },
+    "remarks": "导致敏感信息泄露。",
+    "target": "zookeeper",
+    "type": "UNAUTH"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 0,
+    "name": "WordPress Mailpress Plugin 远程代码执行漏洞",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0030",
+      "url": "https://github.com/Medicean/VulApps/tree/master/w/wordpress/2"
+    },
+    "remarks": "WordPress Mailpress Plugin 插件中, mailpress/mp-includes/class/MP_Actions.class.php 文件中 iview 函数中 subject 参数未经过滤，直接拼接do_eval函数执行代码，而do_eval函数也未经任何过滤，导致远程代码执行漏洞。",
+    "target": "wordpress",
+    "type": "RCE"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 0,
+    "name": "WebLogic WLS RCE ",
+    "references": {
+      "cve": "CVE-2017-10271",
+      "kpid": "KP-0031",
+      "url": "https://github.com/vulhub/vulhub/tree/master/weblogic/CVE-2017-10271"
+    },
+    "remarks": "Oracle WebLogic Server WLS安全组件中的缺陷导致远程命令执行",
+    "target": "weblogic",
+    "type": "RCE"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "neargle",
+    "level": 1,
+    "name": "ThinkPHP5 SQL Injection Vulnerability",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0032",
+      "url": "https://www.leavesongs.com/PENETRATION/thinkphp5-in-sqlinjection.html"
+    },
+    "remarks": "ThinkPHP5 SQL Injection Vulnerability in index.php?ids && Sensitive Information Disclosure Vulnerability",
+    "target": "thinkphp",
+    "type": "SQLI"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 0,
+    "name": "ActiveMQ 任意文件写入漏洞",
+    "references": {
+      "cve": "CVE-2016-3088",
+      "kpid": "KP-0033",
+      "url": "https://github.com/vulhub/vulhub/tree/master/activemq/CVE-2016-3088"
+    },
+    "remarks": "通过PUT请求，攻击者可上传文件到web目录，再通过MOVE得到webshell，导致服务器被入侵控制。",
+    "target": "activemq",
+    "type": "UPLOAD"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 1,
+    "name": "Apache solr XXE漏洞",
+    "references": {
+      "cve": "CVE-2017-12629",
+      "kpid": "KP-0034",
+      "url": "https://github.com/vulhub/vulhub/tree/master/solr/CVE-2017-12629-XXE"
+    },
+    "remarks": "Apache solr Blind XML 实体注入漏洞",
+    "target": "solr",
+    "type": "XXE"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 0,
+    "name": "Nexus Repository Manager 3 远程代码执行漏洞",
+    "references": {
+      "cve": "CVE-2019-7238",
+      "kpid": "KP-0035",
+      "url": "https://www.anquanke.com/post/id/171116"
+    },
+    "remarks": "由于 Nexus Repository Manager 3 访问控制措施缺失，未授权的用户可利用该问题构造特定请求在服务器上执行 Java 代码，从而达到远程代码执行的目的，可导致服务器被入侵控制。",
+    "target": "nexus",
+    "type": "RCE"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 0,
+    "name": "Struts2 s2-016 远程代码执行",
+    "references": {
+      "cve": "CVE-2013-2251",
+      "kpid": "KP-0036",
+      "url": "https://github.com/vulhub/vulhub/tree/master/struts2/s2-016"
+    },
+    "remarks": "struts2中 DefaultActionMapper类支持以\"action:\"、\"redirect:\"、\"redirectAction:\"作为导航或是重定向前缀，但是这些前缀后面同时可以跟OGNL表达式，由于struts2没有对这些前缀做过滤，导致利用OGNL表达式调用java静态方法执行任意系统命令，进而直接导致服务器被入侵控制。",
+    "target": "struts2",
+    "type": "RCE"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 3,
+    "name": "Struts2 s2-017 URL跳转",
+    "references": {
+      "cve": "CVE-2013-2248",
+      "kpid": "KP-0037",
+      "url": "https://cwiki.apache.org/confluence/display/WW/S2-017"
+    },
+    "remarks": "In Struts 2 before 2.3.15.1 the information following \"redirect:\" or \"redirectAction:\" can easily be manipulated to redirect to an arbitrary location.",
+    "target": "struts2",
+    "type": "URLJUMP"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 0,
+    "name": "Struts2 s2-019 Dynamic method executions",
+    "references": {
+      "cve": "CVE-2013-4316",
+      "kpid": "KP-0038",
+      "url": "https://cwiki.apache.org/confluence/display/WW/S2-019"
+    },
+    "remarks": "Dynamic Method Invocation is a mechanism known to impose possible security vulnerabilities, but until now it was enabled by default with warning that users should switch it off if possible.",
+    "target": "struts2",
+    "type": "RCE"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 0,
+    "name": "Struts2 s2-020 DoS attacks and ClassLoader manipulation",
+    "references": {
+      "cve": "CVE-2014-0094",
+      "kpid": "KP-0039",
+      "url": "https://www.freebuf.com/articles/web/31039.html"
+    },
+    "remarks": "The default upload mechanism in Apache Struts 2 is based on Commons FileUpload version 1.3 which is vulnerable and allows DoS attacks. Additional ParametersInterceptor allows access to 'class' parameter which is directly mapped to getClass() method and allows ClassLoader manipulation.",
+    "target": "struts2",
+    "type": "RCE"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 0,
+    "name": "Struts2 s2-032 远程代码执行",
+    "references": {
+      "cve": "CVE-2016-3081",
+      "kpid": "KP-0040",
+      "url": "https://www.freebuf.com/vuls/102836.html"
+    },
+    "remarks": "攻击者利用漏洞可在开启动态方法调用功能的Apache Struts 2服务器上执行任意代码，取得网站服务器控制权。",
+    "target": "struts2",
+    "type": "RCE"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 0,
+    "name": "Struts2 s2-045 远程代码执行",
+    "references": {
+      "cve": "CVE-2017-5638",
+      "kpid": "KP-0041",
+      "url": "https://www.anquanke.com/post/id/85744"
+    },
+    "remarks": "攻击者可通过构造HTTP请求头中的Content-Type值进行远程代码执行，导致服务器被入侵控制。",
+    "target": "struts2",
+    "type": "RCE"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 3,
+    "name": "Discuz! 7.2 admincp.php XSS",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0042",
+      "url": ""
+    },
+    "remarks": "Discuz! 7.2 admincp.php 存在反射型XSS漏洞",
+    "target": "discuz",
+    "type": "XSS"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 3,
+    "name": "Discuz! 7.x ajax.php XSS",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0043",
+      "url": ""
+    },
+    "remarks": "Discuz! 7.x ajax.php 存在反射型XSS漏洞",
+    "target": "discuz",
+    "type": "XSS"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 3,
+    "name": "Discuz! 7.x announcement.php XSS",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0044",
+      "url": ""
+    },
+    "remarks": "Discuz! 7.x announcement.php 存在反射型XSS漏洞",
+    "target": "discuz",
+    "type": "XSS"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 4,
+    "name": "Discuz! X2.5 /api.php 网站物理路径泄露",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0045",
+      "url": ""
+    },
+    "remarks": "Discuz! X2.5 /api.php 网站物理路径泄露",
+    "target": "discuz",
+    "type": "信息泄漏"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 3,
+    "name": "Discuz! 7.x attachment.php XSS",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0046",
+      "url": ""
+    },
+    "remarks": "Discuz! 7.x attachment.php 存在反射型XSS漏洞",
+    "target": "discuz",
+    "type": "XSS"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 3,
+    "name": "Disucz! x3.0 focus.swf XSS",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0047",
+      "url": ""
+    },
+    "remarks": "Discuz! x3.0 /static/image/util/focus.swf 存在Flash XSS漏洞",
+    "target": "discuz",
+    "type": "XSS"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 1,
+    "name": "Discuz! JiangHu Plugin SQL注入",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0048",
+      "url": ""
+    },
+    "remarks": "Discuz! JiangHu Plugin 存在SQL注入漏洞",
+    "target": "discuz",
+    "type": "SQL注入"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 3,
+    "name": "Discuz! 7.x member.php XSS",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0049",
+      "url": ""
+    },
+    "remarks": "Discuz! 7.x member.php 存在反射型XSS漏洞",
+    "target": "discuz",
+    "type": "XSS"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 1,
+    "name": "Discuz! x3.2 misc.php SQL注入",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0050",
+      "url": ""
+    },
+    "remarks": "Discuz! x3.2 misc.php 存在SQL注入漏洞",
+    "target": "discuz",
+    "type": "SQL注入"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 3,
+    "name": "Disucz! x3.0 mp3player.swf XSS",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0051",
+      "url": ""
+    },
+    "remarks": "Discuz! x3.0 /static/image/util/mp3player.swf 存在Flash XSS漏洞",
+    "target": "discuz",
+    "type": "XSS"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 3,
+    "name": "Discuz! 7.2 post.php XSS",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0052",
+      "url": ""
+    },
+    "remarks": "Discuz! 7.2 post.php 存在反射型XSS漏洞",
+    "target": "discuz",
+    "type": "XSS"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 1,
+    "name": "Discuz! 积分商城 Plugin SQL注入",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0053",
+      "url": ""
+    },
+    "remarks": "Discuz! 积分商城 Plugin 存在SQL注入漏洞",
+    "target": "discuz",
+    "type": "SQL注入"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 3,
+    "name": "Discuz! 6.0 XSS",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0054",
+      "url": ""
+    },
+    "remarks": "Discuz! 6.0 viewthread.php 存在反射型XSS漏洞",
+    "target": "discuz",
+    "type": "XSS"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 3,
+    "name": "Django < 2.0.8 任意URL跳转漏洞",
+    "references": {
+      "cve": "CVE-2018-14574",
+      "kpid": "KP-0055",
+      "url": "https://github.com/vulhub/vulhub/blob/master/django/CVE-2018-14574/README.zh-cn.md"
+    },
+    "remarks": "在path开头为//example.com的情况下，Django没做处理，导致浏览器认为目的地址是绝对路径，最终造成任意URL跳转漏洞。",
+    "target": "django",
+    "type": "URLJUMP"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 0,
+    "name": "Docker Remote API未授权访问",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0056",
+      "url": "https://github.com/vulhub/vulhub/blob/master/docker/unauthorized-rce/README.zh-cn.md"
+    },
+    "remarks": "Docker Remote API未授权访问可导致代码泄露，严重可导致服务器被入侵控制。",
+    "target": "docker",
+    "type": "RCE"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 0,
+    "name": "Drupal Drupalgeddon 2 远程代码执行漏洞",
+    "references": {
+      "cve": "CVE-2018-7600",
+      "kpid": "KP-0057",
+      "url": "https://github.com/vulhub/vulhub/blob/master/drupal/CVE-2018-7600/README.zh-cn.md"
+    },
+    "remarks": "6/7/8版本的Form API中存在一处远程代码执行漏洞，可导致服务器直接被入侵控制。",
+    "target": "drupal",
+    "type": "RCE"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 0,
+    "name": "ElasticSearch 未授权访问",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0058",
+      "url": ""
+    },
+    "remarks": "未授权访问导致数据信息泄露，部分版本或插件存在漏洞，严重可导致服务器被入侵。",
+    "target": "docker",
+    "type": "UNAUTH"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 2,
+    "name": "GlassFish 任意文件读取",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0059",
+      "url": "https://github.com/vulhub/vulhub/tree/master/glassfish/4.1.0"
+    },
+    "remarks": "可读取服务器上的任意文件。",
+    "target": "glassfish",
+    "type": "LFR"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 0,
+    "name": "Hadoop YARN ResourceManager 未授权访问/RCE",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0060",
+      "url": "https://github.com/vulhub/vulhub/tree/master/hadoop/unauthorized-yarn"
+    },
+    "remarks": "Hadoop YARN ResourceManager 未授权访问，可查看集群相关信息，通过提交任务功能可在服务上执行任意命令，导致服务器被入侵控制。",
+    "target": "hadoop",
+    "type": "UNAUTH"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 1,
+    "name": "Joomla 3.7.0 SQL注入漏洞",
+    "references": {
+      "cve": "CVE-2017-8917",
+      "kpid": "KP-0061",
+      "url": "https://paper.seebug.org/305/"
+    },
+    "remarks": "Joomla 3.7.0 存在SQL注入漏洞",
+    "target": "joomla",
+    "type": "SQL注入"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 1,
+    "name": "Joomla contushdvideoshare 任意文件读取漏洞",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0062",
+      "url": ""
+    },
+    "remarks": "Joomla contushdvideoshare 存在任意文件读取漏洞",
+    "target": "joomla",
+    "type": "任意文件读取漏洞"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 1,
+    "name": "Joomla departments SQL注入",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0063",
+      "url": ""
+    },
+    "remarks": "Joomla departments 存在SQL注入漏洞",
+    "target": "joomla",
+    "type": "SQL注入"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 0,
+    "name": "phpmyadmin scripts/setup.php 反序列化漏洞",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0064",
+      "url": "https://github.com/vulhub/vulhub/blob/master/phpmyadmin/WooYun-2016-199433/README.zh-cn.md"
+    },
+    "remarks": "phpmyadmin 2.x版本中存在一处反序列化漏洞，通过该漏洞，攻击者可以读取任意文件或执行任意代码。",
+    "target": "phpmyadmin",
+    "type": "RCE"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "phith0n",
+    "level": 0,
+    "name": "ThinkPHP5 5.0.22/5.1.29 远程代码执行漏洞",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0065",
+      "url": "https://github.com/vulhub/vulhub/blob/master/thinkphp/5-rce/README.zh-cn.md"
+    },
+    "remarks": "由于没有正确处理控制器名，导致在网站没有开启强制路由的情况下（即默认情况下）可以执行任意方法，从而导致远程命令执行漏洞，可导致服务器直接被入侵控制。",
+    "target": "thinkphp",
+    "type": "RCE"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 0,
+    "name": "Weblogic 任意文件上传漏洞",
+    "references": {
+      "cve": "CVE-2018-2894",
+      "kpid": "KP-0066",
+      "url": "https://github.com/vulhub/vulhub/tree/master/weblogic/CVE-2018-2894"
+    },
+    "remarks": "配置中启用 Web 服务测试页后，未授权的两个页面存在任意上传getshell漏洞，利用该漏洞可以上传任意jsp文件，进而获取服务器权限。",
+    "target": "weblogic",
+    "type": "RCE"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 1,
+    "name": "Weblogic SSRF",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0067",
+      "url": "https://github.com/vulhub/vulhub/tree/master/weblogic/ssrf"
+    },
+    "remarks": "Weblogic中存在一个SSRF漏洞，利用该漏洞可以发送任意HTTP请求，进而攻击内网中redis、fastcgi等脆弱组件。",
+    "target": "weblogic",
+    "type": "SSRF"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 0,
+    "name": "Wordpress cmdownloads RCE",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0068",
+      "url": ""
+    },
+    "remarks": "WordPress wp-support-plus-responsive-ticket-system plugin downloadAttachment.php 存在代码执行漏洞",
+    "target": "wordpress",
+    "type": "RCE"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 3,
+    "name": "WordPress DZS-VideoGallery XSS",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0069",
+      "url": ""
+    },
+    "remarks": "WordPress DZS-VideoGallery /ajax.php 存在反射型XSS漏洞",
+    "target": "wordpress",
+    "type": "XSS"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 3,
+    "name": "WordPress example.html jQuery DomXSS",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0070",
+      "url": "https://www.freebuf.com/news/66695.html"
+    },
+    "remarks": "WordPress example.html jQuery 1.7.2 存在DomXSS漏洞",
+    "target": "wordpress",
+    "type": "XSS"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 1,
+    "name": "WordPress MainWP 2.0.9.1 登录绕过",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0071",
+      "url": ""
+    },
+    "remarks": "WordPress MainWP 2.0.9.1 存在登录绕过漏洞，可直接登录管理后台",
+    "target": "wordpress",
+    "type": "逻辑漏洞"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 3,
+    "name": "WordPress Sexy Squeeze Pages Plugin XSS",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0072",
+      "url": ""
+    },
+    "remarks": "WordPress Sexy Squeeze Pages Plugin 存在反射型XSS漏洞",
+    "target": "wordpress",
+    "type": "XSS"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 3,
+    "name": "WordPress swfupload.swf FlashXSS",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0073",
+      "url": ""
+    },
+    "remarks": "WordPress /wp-includes/js/swfupload/swfupload.swf 文件存在FlashXSS漏洞，POC：swfupload.swf?movieName=\"])}catch(e){if(!window.x){window.x=1;alert(/xss/)}}//",
+    "target": "wordpress",
+    "type": "XSS"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 3,
+    "name": "WordPress Wpml Plugin XSS",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0074",
+      "url": ""
+    },
+    "remarks": "WordPress wpml Plugin 存在反射型XSS漏洞",
+    "target": "wordpress",
+    "type": "XSS"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 0,
+    "name": "Jenkins Script Security and Pipeline 插件远程代码执行",
+    "references": {
+      "cve": "CVE-2019-1003000",
+      "kpid": "KP-0075",
+      "url": "http://blog.orange.tw/2019/02/abusing-meta-programming-for-unauthenticated-rce.html"
+    },
+    "remarks": "该漏洞通过将AST转换注释（如@Grab）应用于源代码元素，可以在脚本编译阶段避免脚本安全沙箱保护。所以会造成具有“Overall/Read”权限的用户或能够控制SCM中的Jenkinsfile或者sandboxed Pipeline共享库内容的用户可以绕过沙盒保护并在Jenkins主服务器上执行任意代码。",
+    "target": "jenkins",
+    "type": "RCE"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 1,
+    "name": "Socks5代理 未授权访问",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0076",
+      "url": ""
+    },
+    "remarks": "攻击者可使用此代理作为跳板访问内部网络资源。",
+    "target": "proxy",
+    "type": "UNAUTH"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 0,
+    "name": "Struts2 s2-046 远程代码执行",
+    "references": {
+      "cve": "CVE-2017-5638",
+      "kpid": "KP-0077",
+      "url": "https://cwiki.apache.org/confluence/display/WW/S2-046"
+    },
+    "remarks": "It is possible to perform a RCE attack with a malicious Content-Disposition value or with improper Content-Length header.",
+    "target": "struts2",
+    "type": "RCE"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 0,
+    "name": "Struts2 s2-057 远程代码执行",
+    "references": {
+      "cve": "CVE-2018-11776",
+      "kpid": "KP-0078",
+      "url": "https://cwiki.apache.org/confluence/display/WW/S2-057"
+    },
+    "remarks": "当struts.mapper.alwaysSelectFullNamespace设置为true，并且package标签页以及result的param标签页的namespace值的缺失，或使用了通配符时可造成namespace被控制，最终namespace会被带入OGNL语句执行，从而产生远程代码执行漏洞。",
+    "target": "struts2",
+    "type": "RCE"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "phith0n",
+    "level": 0,
+    "name": "ThinkPHP5 5.0.23 远程代码执行漏洞",
+    "references": {
+      "cve": "",
+      "kpid": "KP-0079",
+      "url": "https://github.com/vulhub/vulhub/blob/master/thinkphp/5.0.23-rce/README.zh-cn.md"
+    },
+    "remarks": "其5.0.23以前的版本中，获取method的方法中没有正确处理方法名，导致攻击者可以调用Request类任意方法并构造利用链，从而导致远程代码执行漏洞，可导致服务器直接被入侵控制。",
+    "target": "thinkphp",
+    "type": "RCE"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 0,
+    "name": "Apache Solr ConfigAPI 远程代码执行",
+    "references": {
+      "cve": "CVE-2019-0192",
+      "kpid": "KP-0080",
+      "url": "https://www.seebug.org/vuldb/ssvid-97850"
+    },
+    "remarks": "ConfigAPI允许通过HTTP POST请求配置Solr的JMX服务器。 通过将其指向恶意RMI服务器，攻击者可以利用Solr的不安全反序列化来触发Solr端的远程代码执行。",
+    "target": "solr",
+    "type": "RCE"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 1,
+    "name": "Ruby on Rails 路径穿越与任意文件读取漏洞",
+    "references": {
+      "cve": "CVE-2019-5418",
+      "kpid": "KP-0081",
+      "url": "https://github.com/vulhub/vulhub/tree/master/rails/CVE-2019-5418"
+    },
+    "remarks": "在控制器中通过render file形式来渲染应用之外的视图，且会根据用户传入的Accept头来确定文件具体位置。我们通过传入Accept: ../../../../../../../../etc/passwd{{头来构成构造路径穿越漏洞，读取任意文件。",
+    "target": "rails",
+    "type": "LFR"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 2,
+    "name": "Gitlab OAuth Jira blind SSRF",
+    "references": {
+      "cve": "CVE-2019-6793",
+      "kpid": "KP-0082",
+      "url": "https://hackerone.com/reports/398799"
+    },
+    "remarks": "Oauth :: Jira :: AuthorizationsController＃access_token端点容易受到blind SSRF漏洞的攻击。 该漏洞允许攻击者在GitLab实例的网络中发出任意HTTP / HTTPS请求。",
+    "target": "gitlab",
+    "type": "SSRF"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "wolf",
+    "level": 0,
+    "name": "Atlassian Confluence Widget Connector macro 远程代码执行",
+    "references": {
+      "cve": "CVE-2019-3396",
+      "kpid": "KP-0083",
+      "url": "https://paper.seebug.org/884/"
+    },
+    "remarks": "Confluence Server与Confluence Data Center中的Widget Connector存在服务端模板注入漏洞，攻击者无需登录即可利用此漏洞读取服务器任意文件与远程代码执行。",
+    "target": "confluence",
+    "type": "RCE"
+  },
+  {
+    "Request": "",
+    "Response": "",
+    "author": "Medicean",
+    "level": 0,
+    "name": "CVE-2019-0708 Microsoft Remote Desktop RCE Checker",
+    "references": {
+      "cve": "CVE-2019-0708",
+      "kpid": "KP-0084",
+      "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0708"
+    },
+    "remarks": "攻击者可利用此漏洞远程执行命令, 控制计算机。该检测插件不会引起目标 DOS",
+    "target": "rdp",
+    "type": "RCE"
+  }
+]

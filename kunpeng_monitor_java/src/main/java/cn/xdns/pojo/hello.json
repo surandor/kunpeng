@@ -1,0 +1,11 @@
+{
+  "type": "service",
+   "netloc": "http://www.jingruis.com/", 
+   "target": "mysql",
+   "meta": {
+     "system": "",
+     "pathlist": [],
+     "filelist": [],
+     "passlist": []
+   }
+}
